@@ -1,8 +1,14 @@
 /*swera : NUMR*/
 @font-face {
-    font-family: 'Swera';
-    src: url('../assets/font/swera-demo/Swera Shadowed Demo.otf') format('opentype');
-    font-weight: bold;
+    font-family: 'ABC Whyte Inktrap';
+    src: url('../assets/font/ABC Whyte/ABC Whyte Inktrap/ABCWhyteInktrap-Bold-Trial.otf') format('opentype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'ABC Whyte Inktrap';
+    src: url('../assets/font/ABC Whyte/ABC Whyte Inktrap/ABCWhyteInktrap-Black-Trial.otf') format('opentype');
+    font-weight: 800;
 }
 
 /*Merriweather*/
@@ -30,11 +36,18 @@ body{
     font-family: questrial, serif;
     font-weight: 300;
     color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 h1 {
-    font-family: swera, serif;
-    font-weight: normal;
+    font-family: ABC Whyte Inktrap, serif;
+    font-weight: 800;
+    font-size: 31.3vw;
+    letter-spacing: -2.8vw;
+    margin: 0;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
 }
 
 iframe {
