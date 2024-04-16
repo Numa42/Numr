@@ -1,3 +1,42 @@
+/*swera : NUMR*/
+@font-face {
+    font-family: 'Swera';
+    src: url('../assets/font/swera-demo/Swera Shadowed Demo.otf') format('opentype');
+    font-weight: bold;
+}
+
+/*Merriweather*/
+@font-face {
+    font-family: 'Merriweather';
+    src: url('../assets/font/merriweather/Merriweather-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url('../assets/font/merriweather/Merriweather-Light.ttf') format('truetype');
+    font-weight: 300;
+}
+
+/*Questrial-Regular*/
+@font-face {
+    font-family: 'questrial';
+    src: url('../assets/font/questrial/Questrial-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+body{
+    background-color: #241617;
+    font-family: questrial, serif;
+    font-weight: 300;
+    color: white;
+}
+
+h1 {
+    font-family: swera, serif;
+    font-weight: normal;
+}
+
 iframe {
     width: 600px;
     height: 400px;
