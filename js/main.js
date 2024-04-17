@@ -12,8 +12,8 @@ lenis.on('scroll', (e) => {
     // Application de la nouvelle taille de texte au titre
     pageTitle.style.fontSize = newSize + 'vw';
     pageTitle.style.letterSpacing = newSize / -10.7143 + 'vw';
-    pageTitle.style.marginBottom = newSize - 29 + 'vw';
-    pageTitle.style.marginTop = newSize / 30 + 'vw';
+    pageTitle.style.marginBottom = newSize*2 - 29 + 'vw';
+    pageTitle.style.marginTop = (1 - newSize / 30) * 60 + 1 + 'vw';
 });
 
 function raf(time) {
